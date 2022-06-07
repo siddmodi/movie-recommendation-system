@@ -37,3 +37,17 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
   
 More about Cosine Similarity : [Understanding the Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/)
 
+===================**Explaination**===================
+
+Streamlit app to recommend simillar top 5 movies based on movie we search of the collection of 5000 movies data. we created content based recommendation system
+
+similarity between movies are calculated based on their similarity score 
+We fatch posters of movies using API 
+We clean data and extract some features from it 
+Based on cosine similarity we recommend movies with higher ones  
+This whole process works in 5 stages 
+	Data-preprocessing
+   model making
+   create streamlit app
+   deployment
+Here we use Bag of words for vectorization 
